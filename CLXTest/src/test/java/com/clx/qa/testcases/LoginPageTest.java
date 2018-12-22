@@ -1,4 +1,4 @@
-package com.clx.qa.testdata;
+package com.clx.qa.testcases;
 
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
