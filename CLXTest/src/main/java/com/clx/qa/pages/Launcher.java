@@ -1,5 +1,7 @@
 package com.clx.qa.pages;
 
-public class Launcher {
+import com.clx.qa.base.TestBase;
+
+public class Launcher extends TestBase {
 
 }
