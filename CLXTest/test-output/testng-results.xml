@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="50309" started-at="2018-12-23T15:39:17Z" finished-at="2018-12-23T15:40:07Z">
+  <suite name="Default suite" duration-ms="40370" started-at="2018-12-23T21:36:58Z" finished-at="2018-12-23T21:37:38Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="50309" started-at="2018-12-23T15:39:17Z" finished-at="2018-12-23T15:40:07Z">
+    <test name="Default test" duration-ms="40370" started-at="2018-12-23T21:36:58Z" finished-at="2018-12-23T21:37:38Z">
       <class name="com.clx.qa.testcases.ReferralEngineTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.clx.qa.testcases.ReferralEngineTest@42d80b78]" name="setUp" is-config="true" duration-ms="47400" started-at="2018-12-23T10:39:17Z" finished-at="2018-12-23T10:40:04Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.clx.qa.testcases.ReferralEngineTest@3e6fa38a]" name="setUp" is-config="true" duration-ms="39282" started-at="2018-12-24T02:06:58Z" finished-at="2018-12-24T02:07:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyReferralEngineTest()[pri:0, instance:com.clx.qa.testcases.ReferralEngineTest@42d80b78]" name="verifyReferralEngineTest" duration-ms="1408" started-at="2018-12-23T10:40:04Z" finished-at="2018-12-23T10:40:06Z">
+        <test-method status="PASS" signature="verifyReferralEngineTest()[pri:0, instance:com.clx.qa.testcases.ReferralEngineTest@3e6fa38a]" name="verifyReferralEngineTest" duration-ms="328" started-at="2018-12-24T02:07:37Z" finished-at="2018-12-24T02:07:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyReferralEngineTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.clx.qa.testcases.ReferralEngineTest@42d80b78]" name="tearDown" is-config="true" duration-ms="1437" started-at="2018-12-23T10:40:06Z" finished-at="2018-12-23T10:40:07Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.clx.qa.testcases.ReferralEngineTest@3e6fa38a]" name="tearDown" is-config="true" duration-ms="737" started-at="2018-12-24T02:07:38Z" finished-at="2018-12-24T02:07:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
