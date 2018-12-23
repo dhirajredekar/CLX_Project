@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.clx.qa.testdata.LoginPageTest">
+      <class name="com.clx.qa.testcases.LauncherTest">
         <methods>
-          <include name="loginTest"/>
+          <include name="verifyLauncherTitleTest"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.clx.qa.testdata.LoginPageTest -->
+      </class> <!-- com.clx.qa.testcases.LauncherTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
