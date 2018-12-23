@@ -1,109 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="488295" started-at="2018-12-23T14:04:51Z" finished-at="2018-12-23T14:13:00Z">
+  <suite name="Default suite" duration-ms="50309" started-at="2018-12-23T15:39:17Z" finished-at="2018-12-23T15:40:07Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="488295" started-at="2018-12-23T14:04:51Z" finished-at="2018-12-23T14:13:00Z">
-      <class name="com.clx.qa.testcases.LauncherTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.clx.qa.testcases.LauncherTest@3bfdc050]" name="setUp" is-config="true" duration-ms="46125" started-at="2018-12-23T09:04:51Z" finished-at="2018-12-23T09:05:37Z">
+    <test name="Default test" duration-ms="50309" started-at="2018-12-23T15:39:17Z" finished-at="2018-12-23T15:40:07Z">
+      <class name="com.clx.qa.testcases.ReferralEngineTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.clx.qa.testcases.ReferralEngineTest@42d80b78]" name="setUp" is-config="true" duration-ms="47400" started-at="2018-12-23T10:39:17Z" finished-at="2018-12-23T10:40:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyLauncherTitleTest()[pri:1, instance:com.clx.qa.testcases.LauncherTest@3bfdc050]" name="verifyLauncherTitleTest" duration-ms="42" started-at="2018-12-23T09:05:37Z" finished-at="2018-12-23T09:05:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLauncherTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.clx.qa.testcases.LauncherTest@3bfdc050]" name="tearDown" is-config="true" duration-ms="1067" started-at="2018-12-23T09:05:38Z" finished-at="2018-12-23T09:05:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.clx.qa.testcases.LauncherTest@3bfdc050]" name="setUp" is-config="true" duration-ms="35241" started-at="2018-12-23T09:05:39Z" finished-at="2018-12-23T09:06:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyUserNameTest()[pri:2, instance:com.clx.qa.testcases.LauncherTest@3bfdc050]" name="verifyUserNameTest" duration-ms="68" started-at="2018-12-23T09:06:14Z" finished-at="2018-12-23T09:06:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUserNameTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.clx.qa.testcases.LauncherTest@3bfdc050]" name="tearDown" is-config="true" duration-ms="758" started-at="2018-12-23T09:06:14Z" finished-at="2018-12-23T09:06:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.clx.qa.testcases.LauncherTest@3bfdc050]" name="setUp" is-config="true" duration-ms="41491" started-at="2018-12-23T09:06:15Z" finished-at="2018-12-23T09:06:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyMatterManagerLinkTest()[pri:3, instance:com.clx.qa.testcases.LauncherTest@3bfdc050]" name="verifyMatterManagerLinkTest" duration-ms="20197" started-at="2018-12-23T09:06:56Z" finished-at="2018-12-23T09:07:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyMatterManagerLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.clx.qa.testcases.LauncherTest@3bfdc050]" name="tearDown" is-config="true" duration-ms="772" started-at="2018-12-23T09:07:16Z" finished-at="2018-12-23T09:07:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.clx.qa.testcases.LauncherTest@3bfdc050]" name="setUp" is-config="true" duration-ms="42294" started-at="2018-12-23T09:07:17Z" finished-at="2018-12-23T09:07:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyIntakeManagerLinkTest()[pri:4, instance:com.clx.qa.testcases.LauncherTest@3bfdc050]" name="verifyIntakeManagerLinkTest" duration-ms="20125" started-at="2018-12-23T09:07:59Z" finished-at="2018-12-23T09:08:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIntakeManagerLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.clx.qa.testcases.LauncherTest@3bfdc050]" name="tearDown" is-config="true" duration-ms="746" started-at="2018-12-23T09:08:20Z" finished-at="2018-12-23T09:08:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.clx.qa.testcases.LauncherTest@3bfdc050]" name="setUp" is-config="true" duration-ms="55423" started-at="2018-12-23T09:08:20Z" finished-at="2018-12-23T09:09:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyDigitalArchivalLinkTest()[pri:5, instance:com.clx.qa.testcases.LauncherTest@3bfdc050]" name="verifyDigitalArchivalLinkTest" duration-ms="20158" started-at="2018-12-23T09:09:16Z" finished-at="2018-12-23T09:09:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyDigitalArchivalLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.clx.qa.testcases.LauncherTest@3bfdc050]" name="tearDown" is-config="true" duration-ms="1887" started-at="2018-12-23T09:09:36Z" finished-at="2018-12-23T09:09:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.clx.qa.testcases.LauncherTest@3bfdc050]" name="setUp" is-config="true" duration-ms="51090" started-at="2018-12-23T09:09:38Z" finished-at="2018-12-23T09:10:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyReferralEngineTest()[pri:6, instance:com.clx.qa.testcases.LauncherTest@3bfdc050]" name="verifyReferralEngineTest" duration-ms="20157" started-at="2018-12-23T09:10:29Z" finished-at="2018-12-23T09:10:49Z">
+        <test-method status="PASS" signature="verifyReferralEngineTest()[pri:0, instance:com.clx.qa.testcases.ReferralEngineTest@42d80b78]" name="verifyReferralEngineTest" duration-ms="1408" started-at="2018-12-23T10:40:04Z" finished-at="2018-12-23T10:40:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyReferralEngineTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.clx.qa.testcases.LauncherTest@3bfdc050]" name="tearDown" is-config="true" duration-ms="917" started-at="2018-12-23T09:10:49Z" finished-at="2018-12-23T09:10:50Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.clx.qa.testcases.ReferralEngineTest@42d80b78]" name="tearDown" is-config="true" duration-ms="1437" started-at="2018-12-23T10:40:06Z" finished-at="2018-12-23T10:40:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.clx.qa.testcases.LauncherTest@3bfdc050]" name="setUp" is-config="true" duration-ms="44302" started-at="2018-12-23T09:10:50Z" finished-at="2018-12-23T09:11:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyContactManagerTest()[pri:7, instance:com.clx.qa.testcases.LauncherTest@3bfdc050]" name="verifyContactManagerTest" duration-ms="20172" started-at="2018-12-23T09:11:34Z" finished-at="2018-12-23T09:11:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyContactManagerTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.clx.qa.testcases.LauncherTest@3bfdc050]" name="tearDown" is-config="true" duration-ms="1062" started-at="2018-12-23T09:11:54Z" finished-at="2018-12-23T09:11:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.clx.qa.testcases.LauncherTest@3bfdc050]" name="setUp" is-config="true" duration-ms="43087" started-at="2018-12-23T09:11:55Z" finished-at="2018-12-23T09:12:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyMarketplaceTest()[pri:8, instance:com.clx.qa.testcases.LauncherTest@3bfdc050]" name="verifyMarketplaceTest" duration-ms="20174" started-at="2018-12-23T09:12:39Z" finished-at="2018-12-23T09:12:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyMarketplaceTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.clx.qa.testcases.LauncherTest@3bfdc050]" name="tearDown" is-config="true" duration-ms="893" started-at="2018-12-23T09:12:59Z" finished-at="2018-12-23T09:13:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.clx.qa.testcases.LauncherTest -->
+      </class> <!-- com.clx.qa.testcases.ReferralEngineTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
