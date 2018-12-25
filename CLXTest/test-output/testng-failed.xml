@@ -3,13 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.clx.qa.testcases.LauncherTest">
+      <class name="com.clx.qa.testcases.ContactManagerTest">
         <methods>
-          <include name="verifyLauchPadNotesTest"/>
+          <include name="validateAddNewContactTest"/>
+          <include name="verifyContactManagerLogoTest"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.clx.qa.testcases.LauncherTest -->
+      </class> <!-- com.clx.qa.testcases.ContactManagerTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
