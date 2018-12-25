@@ -34,6 +34,15 @@ public class Launcher extends TestBase {
 
 	@FindBy(xpath = "//div[@class='padding-left-0 margin-top10px col-md-6 ng-binding']")
 	WebElement userNameLabel;
+	
+	@FindBy(xpath="//span[@class='sprite default-search active-search']")
+	WebElement laucherSearch;
+	
+	@FindBy(xpath="//span[@class='sprite default-event active-event']")
+	WebElement universalCalendar;
+	
+	@FindBy(xpath="//span[@class='sprite default-notes active-notes']")
+	WebElement lauchPadNotes;
 
 	/*
 	 * INITILAZATING OF PAGE OBJECT FOR LAUCHER PAGE
@@ -98,5 +107,25 @@ public class Launcher extends TestBase {
 	public boolean correctUserName() {
 		return userNameLabel.isDisplayed();
 	}
+	
+	public LauchPadSearch clickonLauchPadSearch() {
+		Actions act = new Actions(driver);
+		act.moveToElement(laucherSearch).click().build().perform();
+		return new LauchPadSearch();
+	}
+	
+	public UniversalCalendar clickonUniversalCalendar() {
+		Actions act = new Actions(driver);
+		act.moveToElement(universalCalendar).click().build().perform();
+		return new UniversalCalendar();
+	}
+	
+	public LaunchPadNotes clickonLauchPadNotes() {
+		Actions act = new Actions(driver);
+		act.moveToElement(lauchPadNotes).click().build().perform();
+		return new LaunchPadNotes();
+	}
+	
+	
 
 }

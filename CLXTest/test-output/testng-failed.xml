@@ -5,7 +5,7 @@
     <classes>
       <class name="com.clx.qa.testcases.LauncherTest">
         <methods>
-          <include name="verifyMatterManagerLinkTest"/>
+          <include name="verifyLauchPadNotesTest"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>

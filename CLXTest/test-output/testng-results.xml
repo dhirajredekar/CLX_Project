@@ -1,25 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="40370" started-at="2018-12-23T21:36:58Z" finished-at="2018-12-23T21:37:38Z">
+  <suite name="Default suite" duration-ms="179101" started-at="2018-12-25T18:53:27Z" finished-at="2018-12-25T18:56:27Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="40370" started-at="2018-12-23T21:36:58Z" finished-at="2018-12-23T21:37:38Z">
-      <class name="com.clx.qa.testcases.ReferralEngineTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.clx.qa.testcases.ReferralEngineTest@3e6fa38a]" name="setUp" is-config="true" duration-ms="39282" started-at="2018-12-24T02:06:58Z" finished-at="2018-12-24T02:07:37Z">
+    <test name="Default test" duration-ms="179101" started-at="2018-12-25T18:53:27Z" finished-at="2018-12-25T18:56:27Z">
+      <class name="com.clx.qa.testcases.LauncherTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.clx.qa.testcases.LauncherTest@3e6fa38a]" name="setUp" is-config="true" duration-ms="35344" started-at="2018-12-25T23:23:27Z" finished-at="2018-12-25T23:24:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyReferralEngineTest()[pri:0, instance:com.clx.qa.testcases.ReferralEngineTest@3e6fa38a]" name="verifyReferralEngineTest" duration-ms="328" started-at="2018-12-24T02:07:37Z" finished-at="2018-12-24T02:07:38Z">
+        <test-method status="PASS" signature="verifyLauchPadSearchTest()[pri:9, instance:com.clx.qa.testcases.LauncherTest@3e6fa38a]" name="verifyLauchPadSearchTest" duration-ms="20222" started-at="2018-12-25T23:24:03Z" finished-at="2018-12-25T23:24:23Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyReferralEngineTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.clx.qa.testcases.ReferralEngineTest@3e6fa38a]" name="tearDown" is-config="true" duration-ms="737" started-at="2018-12-24T02:07:38Z" finished-at="2018-12-24T02:07:38Z">
+        </test-method> <!-- verifyLauchPadSearchTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.clx.qa.testcases.LauncherTest@3e6fa38a]" name="tearDown" is-config="true" duration-ms="724" started-at="2018-12-25T23:24:23Z" finished-at="2018-12-25T23:24:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.clx.qa.testcases.ReferralEngineTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.clx.qa.testcases.LauncherTest@3e6fa38a]" name="setUp" is-config="true" duration-ms="45007" started-at="2018-12-25T23:24:24Z" finished-at="2018-12-25T23:25:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyUniversalCalendarTest()[pri:10, instance:com.clx.qa.testcases.LauncherTest@3e6fa38a]" name="verifyUniversalCalendarTest" duration-ms="20149" started-at="2018-12-25T23:25:09Z" finished-at="2018-12-25T23:25:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUniversalCalendarTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.clx.qa.testcases.LauncherTest@3e6fa38a]" name="tearDown" is-config="true" duration-ms="711" started-at="2018-12-25T23:25:29Z" finished-at="2018-12-25T23:25:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.clx.qa.testcases.LauncherTest@3e6fa38a]" name="setUp" is-config="true" duration-ms="36053" started-at="2018-12-25T23:25:30Z" finished-at="2018-12-25T23:26:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLauchPadNotesTest()[pri:11, instance:com.clx.qa.testcases.LauncherTest@3e6fa38a]" name="verifyLauchPadNotesTest" duration-ms="20161" started-at="2018-12-25T23:26:06Z" finished-at="2018-12-25T23:26:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLauchPadNotesTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.clx.qa.testcases.LauncherTest@3e6fa38a]" name="tearDown" is-config="true" duration-ms="703" started-at="2018-12-25T23:26:26Z" finished-at="2018-12-25T23:26:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.clx.qa.testcases.LauncherTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
