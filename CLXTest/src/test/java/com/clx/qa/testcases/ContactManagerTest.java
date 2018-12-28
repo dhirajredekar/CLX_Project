@@ -17,7 +17,7 @@ public class ContactManagerTest extends TestBase {
 	Launcher launcher;
 	ContactManager CM;
 	TestUtils testUtil;
-	
+
 	String sheetName = "contacts";
 
 	public ContactManagerTest() {
@@ -34,23 +34,32 @@ public class ContactManagerTest extends TestBase {
 		CM = launcher.clickonContactManager();
 		Thread.sleep(20000);
 	}
-	
-	@Test(priority=2)
+
+	@Test(priority = 1)
 	public void verifyContactManagerLogoTest() throws Exception {
 		boolean ContactManagerLogo = CM.verifyContactManagerLogo();
 		Assert.assertTrue(ContactManagerLogo);
 		Thread.sleep(20000);
 	}
-	
+
 	/*
 	 * @DataProvider public Object[][] getCRMTestData(){ Object data[][] =
 	 * TestUtils.getTestData(sheetName); return data; }
 	 */
-	
-	@Test(priority=1)
+
+	@Test(priority = 2)
 	public void validateAddNewContactTest() throws Exception {
-		CM.validateAddNewContact("Client","Jon","Ned","Snow");
-		Thread.sleep(10000);
+		CM.validateAddNewContact("Automation", "Company", "Robert", "Ned Eddard", "Stark", "test@yopmail.com",
+				"9876543456");
+		Thread.sleep(5000);
+		try {
+			CM.handleDuplicateContact();
+			System.out.println("Conatct is Duplicate");
+			Thread.sleep(10000);
+		}
+		catch(Exception e) {
+			System.out.println("Contact is not Duplicate");
+		}
 	}
 
 	@AfterMethod

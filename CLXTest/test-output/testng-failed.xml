@@ -6,7 +6,6 @@
       <class name="com.clx.qa.testcases.ContactManagerTest">
         <methods>
           <include name="validateAddNewContactTest"/>
-          <include name="verifyContactManagerLogoTest"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
