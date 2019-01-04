@@ -1,37 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="194226" started-at="2018-12-27T16:40:38Z" finished-at="2018-12-27T16:43:52Z">
+  <suite name="Default suite" duration-ms="77825" started-at="2019-01-04T08:24:06Z" finished-at="2019-01-04T08:25:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="194226" started-at="2018-12-27T16:40:38Z" finished-at="2018-12-27T16:43:52Z">
-      <class name="com.clx.qa.testcases.ContactManagerTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.clx.qa.testcases.ContactManagerTest@6a4f787b]" name="setUp" is-config="true" duration-ms="71277" started-at="2018-12-27T11:40:38Z" finished-at="2018-12-27T11:41:49Z">
+    <test name="Default test" duration-ms="77825" started-at="2019-01-04T08:24:06Z" finished-at="2019-01-04T08:25:24Z">
+      <class name="com.clx.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.clx.qa.testcases.LoginPageTest@6093dd95]" name="setUp" is-config="true" duration-ms="16266" started-at="2019-01-04T03:24:06Z" finished-at="2019-01-04T03:24:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyContactManagerLogoTest()[pri:1, instance:com.clx.qa.testcases.ContactManagerTest@6a4f787b]" name="verifyContactManagerLogoTest" duration-ms="20063" started-at="2018-12-27T11:41:49Z" finished-at="2018-12-27T11:42:09Z">
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.clx.qa.testcases.LoginPageTest@6093dd95]" name="loginPageTitleTest" duration-ms="10024" started-at="2019-01-04T03:24:22Z" finished-at="2019-01-04T03:24:32Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyContactManagerLogoTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.clx.qa.testcases.ContactManagerTest@6a4f787b]" name="tearDown" is-config="true" duration-ms="685" started-at="2018-12-27T11:42:09Z" finished-at="2018-12-27T11:42:10Z">
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.clx.qa.testcases.LoginPageTest@6093dd95]" name="tearDown" is-config="true" duration-ms="743" started-at="2019-01-04T03:24:32Z" finished-at="2019-01-04T03:24:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.clx.qa.testcases.ContactManagerTest@6a4f787b]" name="setUp" is-config="true" duration-ms="71812" started-at="2018-12-27T11:42:10Z" finished-at="2018-12-27T11:43:21Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.clx.qa.testcases.LoginPageTest@6093dd95]" name="setUp" is-config="true" duration-ms="13513" started-at="2019-01-04T03:24:33Z" finished-at="2019-01-04T03:24:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateAddNewContactTest()[pri:2, instance:com.clx.qa.testcases.ContactManagerTest@6a4f787b]" name="validateAddNewContactTest" duration-ms="29672" started-at="2018-12-27T11:43:21Z" finished-at="2018-12-27T11:43:51Z">
+        <test-method status="PASS" signature="clxLogoTest()[pri:2, instance:com.clx.qa.testcases.LoginPageTest@6093dd95]" name="clxLogoTest" duration-ms="10358" started-at="2019-01-04T03:24:47Z" finished-at="2019-01-04T03:24:57Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateAddNewContactTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.clx.qa.testcases.ContactManagerTest@6a4f787b]" name="tearDown" is-config="true" duration-ms="688" started-at="2018-12-27T11:43:51Z" finished-at="2018-12-27T11:43:52Z">
+        </test-method> <!-- clxLogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.clx.qa.testcases.LoginPageTest@6093dd95]" name="tearDown" is-config="true" duration-ms="707" started-at="2019-01-04T03:24:57Z" finished-at="2019-01-04T03:24:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.clx.qa.testcases.ContactManagerTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.clx.qa.testcases.LoginPageTest@6093dd95]" name="setUp" is-config="true" duration-ms="14654" started-at="2019-01-04T03:24:58Z" finished-at="2019-01-04T03:25:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.clx.qa.testcases.LoginPageTest@6093dd95]" name="loginTest" duration-ms="10777" started-at="2019-01-04T03:25:12Z" finished-at="2019-01-04T03:25:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.clx.qa.testcases.LoginPageTest@6093dd95]" name="tearDown" is-config="true" duration-ms="752" started-at="2019-01-04T03:25:23Z" finished-at="2019-01-04T03:25:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.clx.qa.testcases.LoginPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
