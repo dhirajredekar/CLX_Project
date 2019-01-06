@@ -4,6 +4,8 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.concurrent.TimeUnit;
+import java.util.function.Function;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
@@ -12,15 +14,20 @@ import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.FluentWait;
 
 import com.clx.qa.base.TestBase;
 
-public class TestUtils extends TestBase{
+public class TestUtils extends TestBase {
 
 	public static long PAGE_LOAD_TIMEOUT = 30;
 	public static long IMPLICIT_WAIT = 20;
+	WebElement element = driver.findElement(By.xpath("//div[@class='lexvia-loader ng-isolate-scope']"));
 
 	static Workbook book;
 	static Sheet sheet;
@@ -57,14 +64,5 @@ public class TestUtils extends TestBase{
 		String currentDir = System.getProperty("user.dir");
 		FileUtils.copyFile(scrFile, new File(currentDir + "/screenshots/" + System.currentTimeMillis() + ".png"));
 	}
-
-	public void removeSpinner() throws Exception
-	{
-		System.out.println("hello");
-		boolean spinner = driver.findElement(By.xpath("//*[@class='lexvia-loader ng-isolate-scope']/img")).isDisplayed();
-		while(driver.findElement(By.xpath("//*[@class='lexvia-loader ng-isolate-scope']/img")).isDisplayed())
-		{
-			Thread.sleep(5000);
-		}
-	}
+	
 }
