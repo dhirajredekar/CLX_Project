@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Cloudlex Automation Framework Test">
+
+	<listeners>
+		<listener
+			class-name="com.clx.qa.ExtentReportListener.ExtentReportListener" />
+	</listeners>
+
+	<test name="Cloudlex Automation Framework Test Cases">
+		<classes>
+			<class name="com.clx.qa.testcases.ContactManagerTest"></class>
+		</classes>
+	</test>
+</suite>
